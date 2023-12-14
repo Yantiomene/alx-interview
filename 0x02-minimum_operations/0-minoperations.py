@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Minimum Operations"""
 
 
@@ -10,7 +11,7 @@ def minOperations(n):
     """
     if n == 1:
         return 0
-    
+
     divisor = 2
     operations = 0
 
