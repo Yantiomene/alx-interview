@@ -18,7 +18,7 @@ count = 0
 try:
     for line in sys.stdin:
         line_content = line.split(" ")
-        if len(line_content) == 9:
+        if len(line_content) > 5:
 
             file_size = line_content[-1]
             status = line_content[-2]
